@@ -28,8 +28,7 @@ Register number: 212221230088
 using System;
 namespace overload
 {
-    class program
-    {
+    class program{
         public int l;
         public program(){
             l = 40;
@@ -44,8 +43,7 @@ namespace overload
             return !a.Equals(b);
         }
 
-        public static void Main(string[] args)
-        {
+        public static void Main(string[] args){
             program e1 = new program();
             program e2 = new program(40);
             e1 = e2;
@@ -60,8 +58,7 @@ namespace overload
 }
 ```
 
-## Output:
- 
+## Output: 
  ![equal](./out1.png)
 
 ## Result:
