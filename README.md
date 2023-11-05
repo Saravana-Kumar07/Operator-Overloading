@@ -71,7 +71,7 @@ namespace overload
 
 ## Output:
  
- ![equal](./out1.PNG)
+ ![equal](./out1.png)
 
 ## Result:
 Thus the C# program to check whether objects are equal using operator overloading is implemented successfully.
