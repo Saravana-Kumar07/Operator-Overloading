@@ -31,20 +31,16 @@ namespace overload
     class program
     {
         public int l;
-        public program()
-        {
+        public program(){
             l = 40;
         }
-        public program(int i)
-        {
+        public program(int i){
             l = i;
         }
-        public static bool operator ==(program a, program b)
-        {
+        public static bool operator ==(program a, program b){
             return a.Equals(b);
         }
-        public static bool operator !=(program a, program b)
-        {
+        public static bool operator !=(program a, program b){
             return !a.Equals(b);
         }
 
@@ -53,20 +49,15 @@ namespace overload
             program e1 = new program();
             program e2 = new program(40);
             e1 = e2;
-            if (e1 == e2)
-            {
+            if (e1 == e2){
                 Console.WriteLine("Equal");
             }
-            else
-            {
+            else{
                 Console.WriteLine("Not Equal");
             }
-
         }
     }
 }
-
-
 ```
 
 ## Output:
